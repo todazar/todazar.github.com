@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Open Sans';
+  font-weight: 200;
+  line-height: 1.1;
+  color: inherit;
+}
+/* Jumbotron styling */
+.jumbotron-location {
+	padding-top: 150px;
+	padding-bottom: 100px;
+	position: relative;
+	background: #000 url("/static/img/homestairs.jpg") no-repeat center center;
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.jumbotron-main {
+	padding-top: 190px;
+	padding-bottom: 120px;
+	position: relative;
+	background: #fff no-repeat center center;
+	width: 100%;
+	height: 650px;
+	background-size: cover;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.jumbotron-index {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	position: relative;
+	background: #fff no-repeat center center;
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.jumbotron-overlay {
+	position: absolute;
+	content: "";
+	z-index: 0;
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.35); 
+}
+
+h1.jumbotron-header {
+	padding-top: 0 !important;
+	color: #fff;
+	font-weight: 900;
+	font-size: 46px;
+}
+
+p.jumbotron-lead {
+	color: #fff;
+	font-size: 26px !important;
+}
+
+h1.jumbotron-header-index {
+	padding-top: 0 !important;
+	color: #404040;
+	font-weight: 900;
+	font-size: 46px;
+}
+
+p.jumbotron-lead-index {
+	font-size: 26px !important;
+}
+
+/* End Jumbotron Styling */
+
+.row-main {
+	position: relative;
+	background: #0699e6;
+	width: 100%;
+	color: white !important;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.row-grey {
+	position: relative;
+    background: #eaeaea;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.row-white {
+	position: relative;
+    background: #FFF;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.btn-main {
+	background-color: #0699e6;
+	border-color: #0699e6;
+	color: white;
+}
+
+.btn-main:hover {
+  color: white;
+  background-color: #0578b4;
+  border-color: #0578b4;
+}
+
+
+.centered {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+
+.tile-height {
+	height: 150px;
+}
+
+.sf-color {
+	color: #5e80ea;
+}
+
+.lightdark-color {
+	color: #404040;
+}
+
+.lightdark-sized {
+	font-weight: 400;
+	font-size: 20px;
+	color: #404040;
+}
+
+.panel-heading {
+	background-color: #fff !important;
+}
+
+
+p.lead {
+	font-size: 19px !important;
+}
+
+h1 {
+	color: #343434;
+	font-weight: 900;
+	font-size: 36px;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 38px;
+}
+
+h3, h4 {
+	font-weight: 600;
+}
+
+p.main-content {
+	font-size: 20px;
+}
+
+ul.checkmark {
+  list-style: none;
+}
+
+ul.checkmark li:before {
+  content: '✓';
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 275px;
+  /*margin: auto;*/
+}
+
+
+/* NAVBAR STYLING */
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-collapse {
+	height: 100vh;
+	max-height: 100% !important; 
+}
+
+
+/* NAVBAR INDEX */
+.navbar-index {
+	font-size: 20px;
+	color: white;
+	background: #fff;
+}
+
+.navbar-border-bottom {
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.navbar-index .navbar-brand {
+  font-family: 'Open Sans';
+}
+
+.navbar-position-top {
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+}
+
+.navbar-brand {
+	font-family: 'Nunito Sans';
+	font-size: 20px;
+}
+
+/* NAVBAR DEFAULT */
+.navbar-default {
+	background: #fff;
+	border-radius: 0 !important;
+}
+
+.navbar-default .navbar-brand {
+  color: #404040;
+}
+
+.navbar-toggle {
+ 	border: none;
+	outline: none;
+}
+
+.navbar-default  .icon-bar {
+  background-color: #eaeaea;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #FFF;
+
+}
+
+/* GENERAL NAVBAR */
+#navbar a {
+	color: white;
+	font-size: 14px;
+}
+
+#navbar-right a {
+	color: #404040;
+	font-size: 14px
+}
+
+#navbar a:hover,
+#navbar a:focus {
+	color: #f8f8f8;
+}
+
+#navbar-right a:hover,
+#navbar-right a:focus {
+	text-decoration: underline;
+	background-color: white;
+}
+
+/* End Navbar styling */
+
+.form-control {
+	border-radius: 0 !important;
+}
+
+.btn {
+	border-radius: 0 !important;	
+}
+
+.box-radius { 
+	border-radius: 0 !important;
+}
+
+/* Padding Tops */
+.pt-5 {
+	padding-top: 5px;
+}
+
+.pt-18 {
+	padding-top: 18px;
+}
+
+.pt-10 {
+	padding-top: 10px;
+}
+
+.pt-20 {
+	padding-top: 20px;
+}
+
+.pt-30 {
+	padding-top: 30px;
+}
+
+.pt-40 {
+	padding-top: 40px;
+}
+
+.pt-50 {
+	padding-top: 50px;
+}
+
+.pt-60 {
+	padding-top: 60px;
+}
+
+.pt-70 {
+	padding-top: 70px;
+}
+
+.pt-80 {
+	padding-top: 80px;
+}
+
+/* Padding Bottoms*/
+.pb-5 {
+	padding-bottom: 5px;
+}
+
+.pb-10 {
+	padding-bottom: 10px;
+}
+
+.pb-20 {
+	padding-bottom: 20px;
+}
+
+.pb-30 {
+	padding-bottom: 30px;
+}
+
+.pb-40 {
+	padding-bottom: 40px;
+}
+
+.pb-50 {
+	padding-bottom: 50px;
+}
+
+.pb-60 {
+	padding-bottom: 60px;
+}
+
+.pb-70 {
+	padding-bottom: 70px;
+}
+
+/* Navbar Advertisement */
+.navbar-ad {
+	background: #AF46FA; /*#5E80EA;*/
+	color: #FFFFFF;
+}
+
+
+.xs-ml-0 {
+  margin-left: 0px;
+}
+.xs-mr-0 {
+  margin-right: 0px;
+}
+.xs-mb-0 {
+  margin-bottom: 0px;
+}
+
+.h50 {
+	height: 50px;
+}
+
+.dashflow { 
+	overflow-y: scroll; 
+	overflow-x: hidden; 
+	height: 94vh;
+}
+
+.mobile-hide { display: inline;}
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .mobile-hide { display: none; }}
+
+.mobile-show { display: none;}
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .mobile-show { display: inline; }}
